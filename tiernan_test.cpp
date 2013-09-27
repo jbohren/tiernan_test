@@ -20,7 +20,7 @@ graph;
 
 int main(int argc, char** argv) {
 
-
+  // This fails for some reason
   BOOST_CONCEPT_ASSERT(( boost::VertexIndexGraphConcept<graph> ));
 
   return 0;
